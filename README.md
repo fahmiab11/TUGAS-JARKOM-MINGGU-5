@@ -1,10 +1,13 @@
 # TUGAS-JARKOM-MINGGU-5
 - DJIKSTRA
+
+![Screenshot (173)](https://user-images.githubusercontent.com/63788366/139594570-6d5c2ed7-7660-466b-8198-75478adb07f7.png)
+
 Algoritme Dijkstra, (sesuai penemunya  Edsger Dijkstra), adalah sebuah algoritma yang dipakai dalam memecahkan permasalahan jarak terpendek (shortest path problem) untuk sebuah graf berarah (directed graph).
 
-Algoritma ini dioublikasikan pada tahun 1959  jurnal Numerische Mathematik yang berjudul “A Note on Two Problems in Connexion with Graphs” dan dianggap sebagai algoritma greedy.
+  Algoritma ini dioublikasikan pada tahun 1959  jurnal Numerische Mathematik yang berjudul “A Note on Two Problems in Connexion with Graphs” dan dianggap sebagai algoritma   greedy.
 
-Algoritma Dijkstra bekerja dengan membuat jalur ke satu simpul optimal pada setiap langkah. Jadi pada langkah ke n, setidaknya ada n node yang sudah kita tahu jalur terpendek. Langkah-langkah algoritma Dijkstra dapat dilakukan dengan  langkah-langkah berikut:
+  Algoritma Dijkstra bekerja dengan membuat jalur ke satu simpul optimal pada setiap langkah. Jadi pada langkah ke n, setidaknya ada n node yang sudah kita tahu jalur terpendek.   Langkah-langkah algoritma Dijkstra dapat dilakukan dengan  langkah-langkah berikut:
 
 1. Tentukan titik mana yang akan menjadi node awal, lalu beri bobot jarak pada node pertama ke node terdekat satu per satu, Dijkstra akan melakukan pengembangan pencarian dari satu titik ke titik lain dan ke titik selanjutnya tahap demi tahap.
 2. Beri nilai bobot (jarak) untuk setiap titik ke titik lainnya, lalu set nilai 0 pada node awal dan nilai tak hingga terhadap node lain (belum terisi) 2.
@@ -14,9 +17,10 @@ Algoritma Dijkstra bekerja dengan membuat jalur ke satu simpul optimal pada seti
 6. Set “Node belum dilewati” dengan jarak terkecil (dari node keberangkatan) sebagai “Node Keberangkatan” selanjutnya dan ulangi langkah e.
 
 - UDP
-UDP, singkatan dari User Datagram Protocol, merupakan aib satu protokol lapisan transpor TCP/IP yang mendukung komunikasi yang tidak andal (unreliable), tanpa koneksi (connectionless) selang host-host dalam jaringan yang menggunakan TCP/IP. Protokol ini dirumuskan dalam RFC 768.
 
-UDP sering digunakan dalam beberapa tugas berikut:
+Singkatan dari User Datagram Protocol, merupakan aib satu protokol lapisan transpor TCP/IP yang mendukung komunikasi yang tidak andal (unreliable), tanpa koneksi (connectionless) selang host-host dalam jaringan yang menggunakan TCP/IP. Protokol ini dirumuskan dalam RFC 768.
+
+   UDP sering digunakan dalam beberapa tugas berikut:
 
 1. Protokol yang "ringan" (lightweight): Bagi menghemat sumber daya memori dan prosesor, beberapa protokol lapisan aplikasi membutuhkan penggunaan protokol yang ringan yang dapat memainkan fungsi-fungsi spesifik dengan saling berubah pesan. Contoh dari protokol yang ringan merupakan fungsi query nama dalam protokol lapisan aplikasi Domain Name System.
 2. Protokol lapisan aplikasi yang mengimplementasikan layanan keandalan: Jika protokol lapisan aplikasi menyediakan layanan transfer data yang andal, maka kebutuhan terhadap keandalan yang dinegosiasikan oleh TCP pun dijadikan tidak berada. Contoh dari protokol seperti ini merupakan Trivial File Transfer Protocol (TFTP) dan Network File System (NFS)
